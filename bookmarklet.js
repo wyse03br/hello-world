@@ -1,4 +1,3 @@
-javascript:(
   function() {
     var fra=document.getElementsByName("Main")[0];
     var doc=fra.contentDocument.documentElement;
@@ -24,4 +23,3 @@ javascript:(
     sel.selectedIndex = sel.selectedIndex + 1;
     frm.submit()
   }
-)();
