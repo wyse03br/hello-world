@@ -19,7 +19,7 @@ javascript:(
       var num=/[0-9\-\.\,]+/;
       if(num.test(v)) {
           console.log(yymmdd.concat(" ".concat(v)));
-          console.log("====="));
+          console.log("=====");
       }
     }
     sel.selectedIndex = sel.selectedIndex + 1;
